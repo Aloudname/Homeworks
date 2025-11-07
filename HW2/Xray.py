@@ -23,7 +23,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"使用设备: {device}")
 
 # 数据路径
-DATA_PATH = r"C:\Users\ziqi\Desktop\X-ray"
+DATA_PATH = r"E:\\HW2\\datasets"
 
 
 class PneumoniaDataset(Dataset):
